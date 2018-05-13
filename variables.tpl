@@ -7,3 +7,17 @@
 {else}
 	Welcome, whatever you are
 {/if}
+
+{*пример с логикой or*}
+
+{if $name eq 'Fred' of $name eq 'Wilma'}
+			...
+{/if}
+
+
+{*проверка на массив*}
+
+{if is_array($foo)}
+	...
+{/if}
+
